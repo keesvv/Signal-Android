@@ -97,7 +97,7 @@ android {
 
     defaultConfig {
         versionCode canonicalVersionCode * postFixSize
-        versionName canonicalVersionName
+        versionName canonicalVersionName + " (Kees Edition)"
 
         minSdkVersion MINIMUM_SDK
         targetSdkVersion TARGET_SDK
