@@ -63,6 +63,7 @@ protobuf {
 
 def canonicalVersionCode = 769
 def canonicalVersionName = "5.2.0"
+def keesEditionVersionName = "1.0.0"
 
 def postFixSize = 100
 def abiPostFix = ['universal'   : 0,
@@ -97,7 +98,7 @@ android {
 
     defaultConfig {
         versionCode canonicalVersionCode * postFixSize
-        versionName canonicalVersionName + " (Kees Edition)"
+        versionName canonicalVersionName + "-" + keesEditionVersionName + " (Kees Edition)"
 
         minSdkVersion MINIMUM_SDK
         targetSdkVersion TARGET_SDK
