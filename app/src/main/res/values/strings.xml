@@ -2485,6 +2485,10 @@
 
     <string name="configurable_single_select__customize_option">Customize option</string>
 
+    <!-- Kees Edition -->
+    <string name="preferences__kees">Kees Edition preferences</string>
+    <string name="preference_category_kees">Kees Edition preferences</string>
+
     <!-- Internal only preferences -->
     <string name="preferences__internal_preferences" translatable="false">Internal Preferences</string>
     <string name="preferences__internal_preferences_groups_v2" translatable="false">Groups V2</string>

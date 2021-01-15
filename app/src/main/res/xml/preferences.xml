@@ -42,6 +42,10 @@
                 android:title="@string/preferences__help"
                 android:icon="@drawable/ic_help_24" />
 
+    <Preference android:key="preference_category_kees"
+                android:title="@string/preferences__kees"
+                android:icon="@drawable/ic_advanced_24"/>
+
     <Preference android:key="preference_category_advanced"
                 android:title="@string/preferences__advanced"
                 android:icon="@drawable/ic_advanced_24"/>
